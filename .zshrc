@@ -682,3 +682,12 @@ esac
 ## local固有設定
 #
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+# z
+ . `brew --prefix`/etc/profile.d/z.sh
+ function precmd () {
+    z --add "$(pwd -P)"
+    }
+
+# mosh
+ compdef mosh=ssh

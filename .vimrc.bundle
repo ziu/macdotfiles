@@ -98,10 +98,10 @@ endif
   " NeoBundle 'AutoComplPop'
 
   " 補完 neocomplcache.vim : 究極のVim的補完環境
-  NeoBundle 'Shougo/neocomplcache'
+  NeoBundle 'Shougo/neocomplcache.git'
 
   " neocomplcacheのsinpet補完
-  NeoBundle 'Shougo/neocomplcache-snippets-complete'
+  NeoBundle 'Shougo/neosnippet.git'
 
   " for rsense
   NeoBundle 'm2ym/rsense'
